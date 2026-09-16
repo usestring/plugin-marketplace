@@ -359,7 +359,7 @@
     },
     {
       "name": "string-web-access",
-      "description": "String Web Access fetches, searches and maps any website as clean, LLM-ready Markdown. It handles proxy rotation, anti-bot protection, CAPTCHAs and JavaScript rendering, so Grok gets the page instead of a block screen. Use it for sites that rate-limit, geo-gate or block automated traffic.",
+      "description": "Search the web, fetch any URL or send it a write request, and map a site's URLs — all returned as clean, LLM-ready Markdown. Proxy rotation, anti-bot handling, CAPTCHA solving and JavaScript rendering happen server-side, so the agent gets the page instead of a block screen. Best for sites that rate-limit, geo-gate or block automated traffic.",
       "category": "development",
       "source": {
         "source": "url",
