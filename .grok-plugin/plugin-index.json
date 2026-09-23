@@ -901,8 +901,8 @@
       }
     },
     "string-web-access": {
-      "sha": "29d957637d0ee14e5438bd5653b77ec0c6581444",
-      "version": "1.0.0",
+      "sha": "7dc641ce4b0783e7f8d2e8fed7ba6b3bc72fe08c",
+      "version": "1.0.5",
       "components": {
         "commands": [
           {
@@ -924,6 +924,14 @@
           {
             "name": "string-fetch",
             "description": "Fetch any web page and get clean, LLM-ready Markdown back, via String Web Access. Use when the user gives you a URL, as…"
+          },
+          {
+            "name": "string-product-help",
+            "description": "Answer public String product, pricing, or integration questions from current sources."
+          },
+          {
+            "name": "string-report",
+            "description": "Optionally send a compact, redacted diagnostic for a String tool failure."
           },
           {
             "name": "string-request",
